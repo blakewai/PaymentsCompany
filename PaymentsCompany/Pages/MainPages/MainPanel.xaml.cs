@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PaymentsCompany.DataFolder;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,11 +21,33 @@ namespace PaymentsCompany.Pages.MainPages
     /// </summary>
     public partial class MainPanel : Page
     {
+        private DataFolder.KKkuzminaEntities context;
+        public static User UserMain = Authorization._user_Main_Info;
         public MainPanel()
         {
             InitializeComponent();
         }
         private void MainPageProfile()
+        {
+
+        }
+
+        private void UsersBT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void PaymentsBT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ExiteBT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ProfileBT_Click(object sender, RoutedEventArgs e)
         {
 
         }

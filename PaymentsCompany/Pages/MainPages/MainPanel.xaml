@@ -34,28 +34,28 @@
                     Name="ProfileBT" 
                     BorderThickness="0"
                     Content="Профиль"
-                    FontSize="50"/>
+                    FontSize="50" Click="ProfileBT_Click"/>
             <Button Height="100" 
                     Margin="0,0,0,100"
                     Background="{x:Null}" 
                     Name="UsersBT" 
                     BorderThickness="0"
                     Content="Пользователи"
-                    FontSize="50"/>
+                    FontSize="50" Click="UsersBT_Click"/>
             <Button Height="100" 
                     Margin="0,0,0,100" 
                     Background="{x:Null}" 
                     Name="PaymentsBT" 
                     BorderThickness="0"
                     Content="Платежи"
-                    FontSize="50"/>
+                    FontSize="50" Click="PaymentsBT_Click"/>
             <Button Height="100" 
                     Margin="0,0,0,100" 
                     Background="{x:Null}" 
                     Name="ExiteBT" 
                     BorderThickness="0"
                     Content="Выход"
-                    FontSize="50"/>
+                    FontSize="50" Click="ExiteBT_Click"/>
         </StackPanel>
         
         <Frame Grid.Row="1" Grid.Column="1" Background="White"/>
