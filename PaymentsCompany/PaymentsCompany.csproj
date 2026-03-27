@@ -75,6 +75,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\MainPages\PagesAdmin\AddUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MainPages\PagesAllUser\Payments.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\MainPages\PagesAllUser\Profile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -90,6 +98,12 @@
     </Compile>
     <Compile Include="Pages\MainPages\MainPanel.xaml.cs">
       <DependentUpon>MainPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainPages\PagesAdmin\AddUser.xaml.cs">
+      <DependentUpon>AddUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainPages\PagesAllUser\Payments.xaml.cs">
+      <DependentUpon>Payments.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\MainPages\PagesAllUser\Profile.xaml.cs">
       <DependentUpon>Profile.xaml</DependentUpon>
