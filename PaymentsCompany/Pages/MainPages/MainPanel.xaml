@@ -18,8 +18,43 @@
             <ColumnDefinition Width="61*"/>
         </Grid.ColumnDefinitions>
 
+        <TextBlock Grid.Column="0" 
+                   Grid.ColumnSpan="2" 
+                   Name="TxtBlInfoPanel" 
+                   Text="Информация" 
+                   FontSize="80" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"/>
+
         <StackPanel Grid.Row="1">
-            <Button Height="100"/>
+            <Button Height="100" 
+                    Margin="0,100,0,100" 
+                    Background="{x:Null}" 
+                    Name="ProfileBT" 
+                    BorderThickness="0"
+                    Content="Профиль"
+                    FontSize="50"/>
+            <Button Height="100" 
+                    Margin="0,0,0,100"
+                    Background="{x:Null}" 
+                    Name="UsersBT" 
+                    BorderThickness="0"
+                    Content="Пользователи"
+                    FontSize="50"/>
+            <Button Height="100" 
+                    Margin="0,0,0,100" 
+                    Background="{x:Null}" 
+                    Name="PaymentsBT" 
+                    BorderThickness="0"
+                    Content="Платежи"
+                    FontSize="50"/>
+            <Button Height="100" 
+                    Margin="0,0,0,100" 
+                    Background="{x:Null}" 
+                    Name="ExiteBT" 
+                    BorderThickness="0"
+                    Content="Выход"
+                    FontSize="50"/>
         </StackPanel>
         
         <Frame Grid.Row="1" Grid.Column="1" Background="White"/>
