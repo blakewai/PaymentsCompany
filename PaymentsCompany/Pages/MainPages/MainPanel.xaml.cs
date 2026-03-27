@@ -13,18 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PaymentsCompany
+namespace PaymentsCompany.Pages.MainPages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для MainPanel.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainPanel : Page
     {
-        public MainWindow()
+        public MainPanel()
         {
             InitializeComponent();
-
-            MainFrame.Navigate(new Uri("Pages/MainPages/Authorization.xaml", UriKind.RelativeOrAbsolute));
         }
     }
 }
