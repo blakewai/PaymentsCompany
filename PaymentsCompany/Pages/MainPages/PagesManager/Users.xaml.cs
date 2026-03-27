@@ -13,18 +13,24 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PaymentsCompany.Pages.MainPages
+namespace PaymentsCompany.Pages.MainPages.PagesManager
 {
     /// <summary>
-    /// Логика взаимодействия для MainPanel.xaml
+    /// Логика взаимодействия для Users.xaml
     /// </summary>
-    public partial class MainPanel : Page
+    public partial class Users : Page
     {
-        public MainPanel()
+        public Users()
         {
             InitializeComponent();
         }
-        private void MainPageProfile()
+
+        private void DeteleBT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Search_Click(object sender, RoutedEventArgs e)
         {
 
         }
